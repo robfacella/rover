@@ -6,3 +6,6 @@ https://www.sparkfun.com/products/16260
 
 SLAMTEC rpLiDAR A1
 https://www.slamtec.ai/home/rplidar_a1/
+
+QWIIC Motor Test - Python
+https://github.com/sparkfun/Qwiic_SCMD_Py/blob/main/examples/ex2_qwiic_scmd.py
