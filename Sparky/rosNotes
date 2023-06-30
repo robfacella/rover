@@ -3,3 +3,6 @@
 
 #Using ROS 1
 https://github.com/dusty-nv/jetbot_ros/tree/melodic
+
+rp lidar A1
+Bus 001 Device 005: ID 10c4:ea60 Cygnal Integrated Products, Inc. CP210x UART Bridge / myAVR mySmartUSB light
