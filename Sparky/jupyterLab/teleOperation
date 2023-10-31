@@ -1,0 +1,30 @@
+Xbox Gamepad Connected Successfully to Debian Laptop
+Interfaces with notebook fine initially
+
+Default steering is Katamari Style, 
+	twin stick up for foward
+	twin stick down for back
+	1-Up 1-Down to Spin/turn
+ie. each stick controls it's respective wheel
+
+Default Throttle appears to be 0 to 100
+
+jpeg module an empty file
+init camera and link to file
+jpeg module becomes a video feed
+
+Continuing through teleoperation module and 
+trying to test piloting from perspective of camera and 
+upon making a turn Sparky shutdown
+
+Reloading took a few moments, as expected but 
+each Jupyter module felt like it wasn't as snappy to load
+errors upon initial motor testing
+eventually connected.
+Got camera feed going again,
+Start to Steer to turn same corner
+Dies again.
+
+Attempting to charge battery but it was ~50%, 
+it *shouldn't* be voltage throttling
+
