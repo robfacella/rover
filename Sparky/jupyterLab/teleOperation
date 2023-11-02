@@ -28,3 +28,24 @@ Dies again.
 Attempting to charge battery but it was ~50%, 
 it *shouldn't* be voltage throttling
 
+##
+##
+Battery Charged, RP Lidar physically disconnected,
+dies again with cam feed on trying to make the turn
+
+#-------------
+#sudo nvpmodel -q
+#[sudo] password for jetbot: 
+NVPM WARN: fan mode is not set!
+NV Power Mode: MAXN
+0
+#-----------
+# Set to 5 Watt mode with nvpmodel -m1
+
+#jetbot@jetson-4-3:~$ sudo nvpmodel -m1
+#jetbot@jetson-4-3:~$ sudo nvpmodel -q
+NVPM WARN: fan mode is not set!
+NV Power Mode: 5W
+1
+#-----------
+# Do we have an active cooler? I think it's just a big heat sink
